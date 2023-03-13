@@ -1,6 +1,6 @@
 # NumberToArabicWords
-Python implementation of the algorthim that convert a number to Arabic words with Algerian currency.
-تطبيق Python للجورثيم الذي يقوم بتحويل عدد إلى كلمات عربية بعملة جزائرية.
+## Python implementation of the algorthim that convert a number to Arabic words with Algerian currency.
+## تطبيق Python للجورثيم الذي يقوم بتحويل عدد إلى كلمات عربية بعملة جزائرية.
 
 
 # Example: 
