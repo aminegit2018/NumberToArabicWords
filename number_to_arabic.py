@@ -207,5 +207,5 @@ def process_arabic_group(
 
 
 
-if __name__ == "__main__":
+
 
