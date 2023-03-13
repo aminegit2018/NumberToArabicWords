@@ -10,6 +10,12 @@ import number_to_arabic
 number = '10000.13'
 print(    number_to_arabic.number_to_word(number)  )
 '10000.13' => عشرة آلاف دينار جزائري و ثلاثة عشر سنتيم
+
+
+text = ''
+with open("myfile.txt", "w", encoding='utf-8') as file1:
+    text = number_to_word(number)
+    file1.write(text)
 ```
 PS: altough, I hard coded the Algerian currency, it can easly modified for another currency.
 
