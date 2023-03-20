@@ -206,10 +206,6 @@ def process_arabic_group(
     return ret_val
 
 
-# Usage example: convert a number to arabic text and write it in a file
-if __name__ == "__main__":
-    number = '10000.13'
-    text = ''
-    with open("myfile.txt", "w", encoding='utf-8') as file1:
-        text = number_to_word(number)
-        file1.write(text)
+
+
+

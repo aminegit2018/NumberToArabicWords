@@ -1,6 +1,22 @@
 # NumberToArabicWords
-Python implementation of the algorthim that convert a number to Arabic words with Algerian currency.
-Example: '10000.13' => عشرة آلاف دينار جزائري و ثلاثة عشر سنتيم
+## Python implementation of the algorthim that convert a number to Arabic words with Algerian currency.
+## تطبيق Python للجورثيم الذي يقوم بتحويل عدد إلى كلمات عربية بعملة جزائرية.
+
+
+# Example: 
+```bash
+import number_to_arabic
+
+number = '10000.13'
+print(    number_to_arabic.number_to_word(number)  )
+'10000.13' => عشرة آلاف دينار جزائري و ثلاثة عشر سنتيم
+
+
+text = ''
+with open("myfile.txt", "w", encoding='utf-8') as file1:
+    text = number_to_arabic.number_to_word(number)
+    file1.write(text)
+```
 PS: altough, I hard coded the Algerian currency, it can easly modified for another currency.
 
 
